@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react';
 import './App.css'
+import './componentes/Boton/Boton.css'
+import Boton from './componentes/Boton/Boton.jsx';
+import fondoPagina1 from './componentes/imagenes/fondoPagina1.jpeg'
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { Container } from 'react-bootstrap';
+import Navbar from "react-bootstrap/Navbar";
+import NubeInformacion from './componentes/NubeInformacion/NubeInformacion';
+import './componentes/NubeInformacion/NubeInformacion.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div>
+      <Navbar className="Navbar" expand="lg">
+        Navbar Felipe
+      </Navbar>
+      <Container fluid style={{ backgroundImage: `url(${fondoPagina1})`}}
+        className="fondoPagina1">
+        <Row className='FilaPrincipal'>
+          <Col>
+            
+          </Col>
+          <Col className='textoPrincipal'>
+            <h1>JUNTOS
+              <br />
+              ALIMENTAMOS EL
+              <br />
+              CAMBIO</h1>
+            <p><small>La solidad es nuesta mejor arma contra el hambre</small></p>
+            <Boton />
+            
+          </Col>
+        </Row>
+        <Row className='nubeCuantitativa'>
+          <NubeInformacion/>
+        </Row>
+        
+      </Container> 
+      <Container className='Espacio'/>
+      <Container className='Footer'>
+      </Container>
 
-export default App
+
+    </div>
+      
+  );
+}
