@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 const NubeInformacion = () => {
   return (
     <Button className="boton-informacion" disabled>
-      <Row className="linea-boton">
+      <Row className="texto-informacion">
         <Col>
           <strong>300 +</strong>
           <br />
