@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './App.css'
 import NavBar from './Component/NavBar/NavBar.jsx'
 import Footer from './Component/Footer/Footer'
@@ -13,9 +13,11 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar/>
+        <main>
         <Routes>
           <Route path='/Page3' element={<Page3/>}/>
         </Routes>
+        </main>
         <Footer/>
       </BrowserRouter>     
     </>
