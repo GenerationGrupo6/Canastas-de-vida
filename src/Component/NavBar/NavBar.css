@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #FFF7E4;
+    height: 15vh;
+    width: auto;
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+

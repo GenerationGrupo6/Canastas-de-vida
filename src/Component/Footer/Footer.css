@@ -1,0 +1,42 @@
+.footer-Main{
+    font-weight: bold;
+    padding-bottom: 0.3rem;
+    margin: 0;
+}
+footer{
+    background-color: #FFF7E4;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: auto;
+}
+#footer-Derecha{
+    display: flex;
+    gap: 1rem  ;
+    margin-left: 2%;
+}
+#footer-Izquierda{
+    display: flex;
+    gap: 3rem  ;
+    margin-right: 3%;
+}
+.col1{
+    gap: 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+.col2{
+    gap: 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+.col3{
+    gap: 0.1rem;
+    display: flex;
+    flex-direction: column;
+}
+.HiperLink{
+    text-decoration: underline;
+    margin: 0.1rem;
+}
