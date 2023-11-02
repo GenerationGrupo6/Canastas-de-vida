@@ -1,4 +1,4 @@
-import React from 'react'
+// Removed unused import
 import './NavBar.css'
 import Logo from '../assets/Logo-sin-fondo.png'
 import { Link } from 'react-router-dom'
