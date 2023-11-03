@@ -1,0 +1,140 @@
+html {
+  font-size: 6.25%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 60px;
+  margin: auto;
+  width: 30vw;
+  height: 60vh;
+  background: lightcoral;
+  margin-top: 30rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  margin-top: 30px;
+}
+
+.header button {
+  align-self: self-end;
+  margin-right: 20rem;
+  padding: 10rem;
+  border-radius: 15rem;
+}
+.text {
+  color: black;
+  font-size: 40rem;
+  font-weight: 700;
+}
+
+.underline {
+  width: 90px;
+  height: 6px;
+  background: black;
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  height: 60rem;
+  background: lightsteelblue;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 20rem;
+}
+
+.input input {
+  height: 50px;
+  width: 40vw;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 19px;
+}
+
+.forgot-password {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 18px;
+}
+
+.forgot-password span {
+  color: black;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30rem;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 59px;
+  width: 130rem;
+  color: black;
+  background: lightsteelblue;
+  border-radius: 50rem;
+  font-size: 16rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gray {
+  background: #eaeaea;
+  color: black;
+}
+
+/* Modal css */
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 30px;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 100rem;
+}
+
+.modal-content {
+  background: transparent;
+  max-width: 100%;
+}
