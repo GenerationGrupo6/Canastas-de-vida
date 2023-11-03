@@ -16,7 +16,7 @@ const NavBar = () => {
             <nav className="nav">
                 <ul className="nav-list">
                 <li><Link to='/'>INICIO</Link></li>
-                <li>NOSOTROS</li>
+                <li><Link to='Mapa'>MAPA</Link></li>
                 <li><Link to='/Page3'>NUESTRAS HISTORIAS</Link></li>
                 <li>CONTACTANOS</li>
                 <li>UNETE AL CAMBIO</li>
