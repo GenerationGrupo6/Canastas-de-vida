@@ -1,0 +1,60 @@
+
+.contenedorPadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+.contenedor-Beige {
+    background-color: #FFF7E4;
+    position: relative;
+    display: flex;
+    right: 20vw;
+    width: 40vw;
+    height: 45vh;
+}
+.contenedor-Contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 33vw;
+    height: 100%;
+}
+#imagenPag2 {
+    position: absolute;
+    left: 35vw;
+    top: 3vh;
+    width: 45vw;
+    height: 40vh;
+}
+.destacado{
+    font-size: 20px;
+}
+#parrafo {
+    font-size: 14px;
+    text-align: justify;
+    height: 20vh;
+}
+.btn{
+    background-color: rgba(245, 160, 29, 0.50);
+    border-radius: 30vh;
+    border: none;
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.4);
+}
+.btn:hover{
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.7);
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.7);
+}
+.btn:active{
+    background-color: rgba(245, 160, 29, 0.50);
+    border-radius: 30vh;
+    border: none;
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.7);
+}

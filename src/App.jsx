@@ -1,9 +1,9 @@
-import React from 'react'
+
 import './App.css'
 import NavBar from './Component/NavBar/NavBar.jsx'
 import Footer from './Component/Footer/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Page3 from './Pages/Page3'
+import NuestrasHistorias from './Pages/NuestrasHistorias'
 
 
 function App() {
@@ -13,9 +13,11 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar/>
+        <main>
         <Routes>
-          <Route path='/Page3' element={<Page3/>}/>
+          <Route path='/Page3' element={<NuestrasHistorias/>}/>
         </Routes>
+        </main>
         <Footer/>
       </BrowserRouter>     
     </>
