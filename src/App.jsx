@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NuestrasHistorias from './Pages/NuestrasHistorias'
 
 
-function App() {
+export default function App() {
   
 
   return (
