@@ -18,4 +18,5 @@ main{
   display: flex ;
   height: 70vh;
   flex-direction: column;
+  align-items: center;
 }

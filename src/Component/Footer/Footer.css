@@ -22,17 +22,15 @@ footer{
     margin-right: 3%;
 }
 .col1{
-    gap: 0.1rem;
     display: flex;
     flex-direction: column;
 }
 .col2{
-    gap: 0.1rem;
     display: flex;
     flex-direction: column;
 }
 .col3{
-    gap: 0.1rem;
+    
     display: flex;
     flex-direction: column;
 }

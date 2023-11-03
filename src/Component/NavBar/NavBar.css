@@ -7,7 +7,7 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1%;
     background-color: #FFF7E4;
     height: 15vh;
