@@ -1,5 +1,6 @@
 import React from "react";
 import Map from '../Component/assets/Santiago.png'
+import './MapYSub.css'
 
 const Mappa = () => {
 

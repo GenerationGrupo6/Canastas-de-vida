@@ -31,9 +31,11 @@
     height: 40vh;
 }
 .destacado{
+    margin-bottom: 2rem;
     font-size: 20px;
 }
 #parrafo {
+    font-weight: 600;
     font-size: 14px;
     text-align: justify;
     height: 20vh;
@@ -43,6 +45,8 @@
     border-radius: 30vh;
     border: none;
     box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.4);
+    height: 3rem;
+    width: 10rem;
 }
 .vermashistorias:hover{
     box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.7);
