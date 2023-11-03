@@ -13,7 +13,7 @@ const ContenedorP3 = () => {
                     mundo donde cada individuo pueda gozar del derecho humano
                     fundamental de no pasar hambre.
                     </p>
-                    <button className="btn">Ver más historias</button>
+                    <button className="vermashistorias">Ver más historias</button>
                 </div>
                 <img src={imagenCentral} alt="imagenPag2" id="imagenPag2" />
             </div>

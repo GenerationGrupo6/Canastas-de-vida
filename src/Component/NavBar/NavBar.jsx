@@ -1,4 +1,4 @@
-// Removed unused import
+
 import './NavBar.css'
 import Logo from '../assets/Logo-sin-fondo.png'
 import { Link } from 'react-router-dom'
@@ -15,7 +15,7 @@ const NavBar = () => {
             />
             <nav className="nav">
                 <ul className="nav-list">
-                <li>INICIO</li>
+                <li><Link to='/'>INICIO</Link></li>
                 <li>NOSOTROS</li>
                 <li><Link to='/Page3'>NUESTRAS HISTORIAS</Link></li>
                 <li>CONTACTANOS</li>
