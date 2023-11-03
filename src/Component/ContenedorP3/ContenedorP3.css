@@ -38,3 +38,23 @@
     text-align: justify;
     height: 20vh;
 }
+.btn{
+    background-color: rgba(245, 160, 29, 0.50);
+    border-radius: 30vh;
+    border: none;
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.4);
+}
+.btn:hover{
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.7);
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.7);
+}
+.btn:active{
+    background-color: rgba(245, 160, 29, 0.50);
+    border-radius: 30vh;
+    border: none;
+    box-shadow: 0em 0.2em 0em 0em rgba(98, 98, 98, 0.7);
+}
